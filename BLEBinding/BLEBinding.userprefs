@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.JNemo’s iPhone" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BLETest/BLETestViewController.cs">
+    <Files>
+      <File FileName="BLETest/BLETestViewController.cs" Line="36" Column="4" />
+      <File FileName="BLEBinding/ApiDefinition.cs" Line="22" Column="3" />
+      <File FileName="BLETest/BLEHandleDelegate.cs" Line="1" Column="1" />
+      <File FileName="BLETest/Main.cs" Line="16" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

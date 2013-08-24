@@ -1,0 +1,5 @@
+/Users/fedems/Documents/Bindings/BLEBinding/BLEBinding/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/fedems/Documents/Bindings/BLEBinding/BLEBinding/bin/Debug/BLEBinding.dll.mdb
+/Users/fedems/Documents/Bindings/BLEBinding/BLEBinding/bin/Debug/BLEBinding.dll
+/Users/fedems/Documents/Bindings/BLEBinding/BLEBinding/obj/Debug/BLEBinding.dll
+/Users/fedems/Documents/Bindings/BLEBinding/BLEBinding/obj/Debug/BLEBinding.dll.mdb

@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLEBinding", "BLEBinding\BLEBinding.csproj", "{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLETest", "BLETest\BLETest.csproj", "{252307CA-F64B-4023-93EB-7ED7AE104F15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Debug|iPhone.Build.0 = Debug|iPhone
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Release|iPhone.ActiveCfg = Release|iPhone
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Release|iPhone.Build.0 = Release|iPhone
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{252307CA-F64B-4023-93EB-7ED7AE104F15}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Release|iPhone.Build.0 = Release|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{5A0F39C9-A45F-4A55-AFA5-F0A4BF1F936F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BLETest\BLETest.csproj
+	EndGlobalSection
+EndGlobal

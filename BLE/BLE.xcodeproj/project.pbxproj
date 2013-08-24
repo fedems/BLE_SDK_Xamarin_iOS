@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F04468017C881F700832329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F04467F17C881F700832329 /* Foundation.framework */; };
+		6F04469017C8828200832329 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F04468D17C8828200832329 /* BLE.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F04467A17C881F700832329 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F04467C17C881F700832329 /* libBLE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBLE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F04467F17C881F700832329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F04468317C881F700832329 /* BLE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLE-Prefix.pch"; sourceTree = "<group>"; };
+		6F04468D17C8828200832329 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		6F04468E17C8828200832329 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		6F04468F17C8828200832329 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F04467917C881F700832329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F04468017C881F700832329 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F04467317C881F700832329 = {
+			isa = PBXGroup;
+			children = (
+				6F04468117C881F700832329 /* BLE */,
+				6F04467E17C881F700832329 /* Frameworks */,
+				6F04467D17C881F700832329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F04467D17C881F700832329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F04467C17C881F700832329 /* libBLE.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F04467E17C881F700832329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F04467F17C881F700832329 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F04468117C881F700832329 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				6F04468D17C8828200832329 /* BLE.m */,
+				6F04468E17C8828200832329 /* BLE.h */,
+				6F04468F17C8828200832329 /* BLEDefines.h */,
+				6F04468217C881F700832329 /* Supporting Files */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		6F04468217C881F700832329 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F04468317C881F700832329 /* BLE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F04467B17C881F700832329 /* BLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F04468A17C881F700832329 /* Build configuration list for PBXNativeTarget "BLE" */;
+			buildPhases = (
+				6F04467817C881F700832329 /* Sources */,
+				6F04467917C881F700832329 /* Frameworks */,
+				6F04467A17C881F700832329 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLE;
+			productName = BLE;
+			productReference = 6F04467C17C881F700832329 /* libBLE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F04467417C881F700832329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Federico Sanchez";
+			};
+			buildConfigurationList = 6F04467717C881F700832329 /* Build configuration list for PBXProject "BLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F04467317C881F700832329;
+			productRefGroup = 6F04467D17C881F700832329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F04467B17C881F700832329 /* BLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F04467817C881F700832329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F04469017C8828200832329 /* BLE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F04468817C881F700832329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F04468917C881F700832329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F04468B17C881F700832329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BLE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLE/BLE-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6F04468C17C881F700832329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BLE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLE/BLE-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F04467717C881F700832329 /* Build configuration list for PBXProject "BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F04468817C881F700832329 /* Debug */,
+				6F04468917C881F700832329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F04468A17C881F700832329 /* Build configuration list for PBXNativeTarget "BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F04468B17C881F700832329 /* Debug */,
+				6F04468C17C881F700832329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F04467417C881F700832329 /* Project object */;
+}

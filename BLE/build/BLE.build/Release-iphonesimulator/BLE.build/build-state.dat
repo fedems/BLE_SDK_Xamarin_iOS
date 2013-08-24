@@ -1,0 +1,92 @@
+TBLE
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-gvslwtgbovwdnbcggctfyyqiqsnv/BLE-Prefix.pch.pth BLE/BLE-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.o /Users/fedems/Documents/Bindings/BLE/BLE/BLE.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator/libBLE.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051BC0FC50000000000000110
+t1371279301
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000517A08E800000000003DDFA0
+t1366952168
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000517A08E800000000000015F7
+t1366952168
+s5623
+
+N/Users/fedems/Documents/Bindings/BLE/BLE/BLE-Prefix.pch
+c0000000052184A770000000000000093
+t1377323639
+s147
+i<Foundation/Foundation.h>
+
+N/Users/fedems/Documents/Bindings/BLE/BLE/BLE.m
+c0000000050A6099B0000000000004D48
+t1353058715
+s19784
+
+N/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.LinkFileList
+c0000000052184B820000000000000071
+t1377323906
+s113
+
+N/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.o
+t2
+s0
+
+N/Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator/libBLE.a
+t2
+s0
+
+N/var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-gvslwtgbovwdnbcggctfyyqiqsnv/BLE-Prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies139c3e0283c8b741^d11e430283c8b741^---0#1#0#--18"Check dependencies36"D8A4BA1F-853E-4116-BDC4-081F2C663049-
+
+CCompileC build/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.o /Users/fedems/Documents/Bindings/BLE/BLE/BLE.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399016706.435612
+e399016706.548752
+r1
+xCompileC
+xbuild/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.o
+x/Users/fedems/Documents/Bindings/BLE/BLE/BLE.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/fedems/Documents/Bindings/BLE/BLE/BLE.m3ca16f0283c8b741^9e7a8c0283c8b741^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Users/fedems/Documents/Bindings/BLE/BLE/BLE.m0000000000000000^3265"CompileC build/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.o BLE/BLE.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fedems/Documents/Bindings/BLE    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/BLE-generated-files.hmap -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/BLE-own-target-headers.hmap -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/BLE-all-target-headers.hmap -iquote /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/BLE-project-headers.hmap -I/Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/DerivedSources/i386 -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/DerivedSources -F/Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator -include /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-gvslwtgbovwdnbcggctfyyqiqsnv/BLE-Prefix.pch -MMD -MT dependencies -MF /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.d --serialize-diagnostics /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.dia -c /Users/fedems/Documents/Bindings/BLE/BLE/BLE.m -o /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.o36"37CF21DC-1FEE-4CD6-8BA1-C0DCE3523870-
+
+CLibtool /Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator/libBLE.a normal i386
+s399016706.555670
+e399016706.562109
+r1
+xLibtool
+x/Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator/libBLE.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Libtool build/Release-iphonesimulator/libBLE.a normal i386b0598e0283c8b741^c9e98f0283c8b741^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--916"Libtool build/Release-iphonesimulator/libBLE.a normal i386    cd /Users/fedems/Documents/Bindings/BLE    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator -filelist /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/Objects-normal/i386/BLE.LinkFileList -ObjC -framework Foundation -o /Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator/libBLE.a36"782E4D9C-7C99-45FD-8392-E7E31182FCAB-
+
+CProcessPCH /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-gvslwtgbovwdnbcggctfyyqiqsnv/BLE-Prefix.pch.pth BLE/BLE-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399016706.265350
+e399016706.428672
+r1
+xProcessPCH
+x/var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-gvslwtgbovwdnbcggctfyyqiqsnv/BLE-Prefix.pch.pth
+xBLE/BLE-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile BLE/BLE-Prefix.pchfe26440283c8b741^84bd6d0283c8b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/fedems/Documents/Bindings/BLE/BLE/BLE-Prefix.pch0000000000000000^3327"ProcessPCH /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-gvslwtgbovwdnbcggctfyyqiqsnv/BLE-Prefix.pch.pth BLE/BLE-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fedems/Documents/Bindings/BLE    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/BLE-generated-files.hmap -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/BLE-own-target-headers.hmap -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/BLE-all-target-headers.hmap -iquote /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/BLE-project-headers.hmap -I/Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/DerivedSources/i386 -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphonesimulator/BLE.build/DerivedSources -F/Users/fedems/Documents/Bindings/BLE/build/Release-iphonesimulator --serialize-diagnostics /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-gvslwtgbovwdnbcggctfyyqiqsnv/BLE-Prefix.pch.dia -c /Users/fedems/Documents/Bindings/BLE/BLE/BLE-Prefix.pch -o /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-gvslwtgbovwdnbcggctfyyqiqsnv/BLE-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-gvslwtgbovwdnbcggctfyyqiqsnv/BLE-Prefix.pch.d36"5A40354A-61D2-4BDC-B0D1-6E2A0E6617E7-
+

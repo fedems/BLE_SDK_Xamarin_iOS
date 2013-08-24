@@ -1,0 +1,92 @@
+TBLE
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-erlissndqbygopgayvilwdcegcwc/BLE-Prefix.pch.pth BLE/BLE-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.o /Users/fedems/Documents/Bindings/BLE/BLE/BLE.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos/libBLE.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000051BC0F9A0000000000000110
+t1371279258
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000517A047E000000000062AD10
+t1366951038
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000517A047D00000000000015F7
+t1366951037
+s5623
+
+N/Users/fedems/Documents/Bindings/BLE/BLE/BLE-Prefix.pch
+c0000000052184A770000000000000093
+t1377323639
+s147
+i<Foundation/Foundation.h>
+
+N/Users/fedems/Documents/Bindings/BLE/BLE/BLE.m
+c0000000050A6099B0000000000004D48
+t1353058715
+s19784
+
+N/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.LinkFileList
+c0000000052184B83000000000000006B
+t1377323907
+s107
+
+N/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.o
+t2
+s0
+
+N/Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos/libBLE.a
+t2
+s0
+
+N/var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-erlissndqbygopgayvilwdcegcwc/BLE-Prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesabd10f0383c8b741^8bc1130383c8b741^---0#1#0#--18"Check dependencies36"DFD3185D-F999-4E20-A8A5-F9B3485227E3-
+
+CCompileC build/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.o /Users/fedems/Documents/Bindings/BLE/BLE/BLE.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399016707.246613
+e399016707.372191
+r1
+xCompileC
+xbuild/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.o
+x/Users/fedems/Documents/Bindings/BLE/BLE/BLE.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/fedems/Documents/Bindings/BLE/BLE/BLE.m0c3c3f0383c8b741^b6475f0383c8b741^---0#0#0#-19%DVTDocumentLocation2@62"file://localhost/Users/fedems/Documents/Bindings/BLE/BLE/BLE.m0000000000000000^3092"CompileC build/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.o BLE/BLE.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fedems/Documents/Bindings/BLE    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/BLE-generated-files.hmap -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/BLE-own-target-headers.hmap -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/BLE-all-target-headers.hmap -iquote /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/BLE-project-headers.hmap -I/Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/DerivedSources/armv7 -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/DerivedSources -F/Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos -include /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-erlissndqbygopgayvilwdcegcwc/BLE-Prefix.pch -MMD -MT dependencies -MF /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.d --serialize-diagnostics /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.dia -c /Users/fedems/Documents/Bindings/BLE/BLE/BLE.m -o /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.o36"1B2A47AE-EB68-484A-8095-E4231B04DCE2-
+
+CLibtool /Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos/libBLE.a normal armv7
+s399016707.379098
+e399016707.385879
+r1
+xLibtool
+x/Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos/libBLE.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Libtool build/Release-iphoneos/libBLE.a normal armv7e623610383c8b741^d6c8620383c8b741^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--870"Libtool build/Release-iphoneos/libBLE.a normal armv7    cd /Users/fedems/Documents/Bindings/BLE    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos -filelist /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/Objects-normal/armv7/BLE.LinkFileList -ObjC -framework Foundation -o /Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos/libBLE.a36"C104B14E-C767-4881-A3A7-21A3AA324284-
+
+CProcessPCH /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-erlissndqbygopgayvilwdcegcwc/BLE-Prefix.pch.pth BLE/BLE-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399016707.080636
+e399016707.237919
+r1
+xProcessPCH
+x/var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-erlissndqbygopgayvilwdcegcwc/BLE-Prefix.pch.pth
+xBLE/BLE-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile BLE/BLE-Prefix.pchc9c9140383c8b741^25e73c0383c8b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/fedems/Documents/Bindings/BLE/BLE/BLE-Prefix.pch0000000000000000^3178"ProcessPCH /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-erlissndqbygopgayvilwdcegcwc/BLE-Prefix.pch.pth BLE/BLE-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/fedems/Documents/Bindings/BLE    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/BLE-generated-files.hmap -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/BLE-own-target-headers.hmap -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/BLE-all-target-headers.hmap -iquote /Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/BLE-project-headers.hmap -I/Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/DerivedSources/armv7 -I/Users/fedems/Documents/Bindings/BLE/build/BLE.build/Release-iphoneos/BLE.build/DerivedSources -F/Users/fedems/Documents/Bindings/BLE/build/Release-iphoneos --serialize-diagnostics /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-erlissndqbygopgayvilwdcegcwc/BLE-Prefix.pch.dia -c /Users/fedems/Documents/Bindings/BLE/BLE/BLE-Prefix.pch -o /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-erlissndqbygopgayvilwdcegcwc/BLE-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/nf/cm8nw21d1mjfvsgfxf2mzzz80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BLE-Prefix-erlissndqbygopgayvilwdcegcwc/BLE-Prefix.pch.d36"BFE5B002-A050-4A20-930E-9F5D554AFF3D-
+
