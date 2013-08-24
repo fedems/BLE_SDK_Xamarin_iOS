@@ -1,9 +1,9 @@
 BLE_SDK_Xamarin_iOS
 ===================
 
-Bearlab BLE SDK binding for Xamarin iOS
+BearLab BLE SDK binding for Xamarin iOS
 
-Binding to the Bearlab BLE SDK library for Xamarin iOS,
+Binding to the BearLab BLE SDK library for Xamarin iOS,
 available from:
 
 	  https://github.com/RedBearLab/Release/tree/master/BLEShield
