@@ -19,6 +19,9 @@ namespace BLETest
 		MonoTouch.UIKit.UILabel lblAnalogIn { get; set; }
 
 		[Outlet]
+		MonoTouch.UIKit.UIButton lblBoton2 { get; set; }
+
+		[Outlet]
 		MonoTouch.UIKit.UILabel lblRSSI { get; set; }
 
 		[Outlet]
@@ -34,6 +37,16 @@ namespace BLETest
 				btnConectar = null;
 			}
 
+			if (lblAnalogIn != null) {
+				lblAnalogIn.Dispose ();
+				lblAnalogIn = null;
+			}
+
+			if (lblBoton2 != null) {
+				lblBoton2.Dispose ();
+				lblBoton2 = null;
+			}
+
 			if (lblRSSI != null) {
 				lblRSSI.Dispose ();
 				lblRSSI = null;
@@ -47,11 +60,6 @@ namespace BLETest
 			if (swStatus != null) {
 				swStatus.Dispose ();
 				swStatus = null;
-			}
-
-			if (lblAnalogIn != null) {
-				lblAnalogIn.Dispose ();
-				lblAnalogIn = null;
 			}
 		}
 	}

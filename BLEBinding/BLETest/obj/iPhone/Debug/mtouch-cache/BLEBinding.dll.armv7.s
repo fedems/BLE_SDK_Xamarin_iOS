@@ -156,7 +156,7 @@ Lme_0:
 	.align 2
 	.no_dead_strip _ApiDefinition_Messaging__cctor
 _ApiDefinition_Messaging__cctor:
-.file 2 "/Users/fedems/Documents/Bindings/BLEBinding/BLEBinding/obj/Debug/ios/ObjCRuntime/Messaging.g.cs"
+.file 2 "/Users/fedems/Documents/GitHUB/BLE_SDK_Xamarin_iOS/BLEBinding/BLEBinding/obj/Debug/ios/ObjCRuntime/Messaging.g.cs"
 .loc 2 33 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,159,229,0,0,0,234
@@ -175,7 +175,7 @@ Lme_7:
 	.align 2
 	.no_dead_strip _BLE_BLEDelegate__ctor
 _BLE_BLEDelegate__ctor:
-.file 3 "/Users/fedems/Documents/Bindings/BLEBinding/BLEBinding/obj/Debug/ios/BLE/BLEDelegate.g.cs"
+.file 3 "/Users/fedems/Documents/GitHUB/BLE_SDK_Xamarin_iOS/BLEBinding/BLEBinding/obj/Debug/ios/BLE/BLEDelegate.g.cs"
 .loc 3 39 0
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,24,208,77,226,0,160,160,225,0,0,159,229,0,0,0,234
@@ -472,8 +472,8 @@ bl _p_13
 Lme_e:
 .text
 	.align 2
-	.no_dead_strip _BLE_BLEDelegate_BleDidReceiveData_string_int
-_BLE_BLEDelegate_BleDidReceiveData_string_int:
+	.no_dead_strip _BLE_BLEDelegate_BleDidReceiveData_intptr_int
+_BLE_BLEDelegate_BleDidReceiveData_intptr_int:
 .loc 3 100 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,36,208,77,226,8,0,141,229,12,16,141,229,16,32,141,229,0,0,159,229
@@ -501,7 +501,7 @@ Lme_f:
 	.align 2
 	.no_dead_strip _BLE_BLE_get_ClassHandle
 _BLE_BLE_get_ClassHandle:
-.file 4 "/Users/fedems/Documents/Bindings/BLEBinding/BLEBinding/obj/Debug/ios/BLE/BLE.g.cs"
+.file 4 "/Users/fedems/Documents/GitHUB/BLE_SDK_Xamarin_iOS/BLEBinding/BLEBinding/obj/Debug/ios/BLE/BLE.g.cs"
 .loc 4 146 0
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,16,208,77,226,8,0,141,229,0,0,159,229,0,0,0,234
@@ -4082,7 +4082,7 @@ method_addresses:
 	bl _BLE_BLEDelegate_BleDidConnect
 	bl _BLE_BLEDelegate_BleDidDisconnect
 	bl _BLE_BLEDelegate_BleDidUpdateRSSI_MonoTouch_Foundation_NSNumber
-	bl _BLE_BLEDelegate_BleDidReceiveData_string_int
+	bl _BLE_BLEDelegate_BleDidReceiveData_intptr_int
 	bl _BLE_BLE_get_ClassHandle
 	bl _BLE_BLE__ctor
 	bl _BLE_BLE__ctor_MonoTouch_Foundation_NSCoder
@@ -4569,7 +4569,7 @@ image_table:
 
 	.long 3
 	.asciz "BLEBinding"
-	.asciz "4122A61F-93E8-4524-9761-D8671EBCB74A"
+	.asciz "9B7BB53B-94AC-48C2-8C74-726ABF890473"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -4597,7 +4597,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "4122A61F-93E8-4524-9761-D8671EBCB74A"
+	.asciz "9B7BB53B-94AC-48C2-8C74-726ABF890473"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -4712,16 +4712,16 @@ blob:
 	.byte 0,129,223,17,0,129,247,17,0,130,9,17,0,130,33,17,0,130,81,17,0,130,91,17,0,130,167,17,0,130,181,17
 	.byte 0,130,209,17,0,130,249,17,0,131,31,17,0,131,43,17,0,131,101,17,0,131,123,17,0,131,167,17,0,131,209,17
 	.byte 0,132,13,17,0,132,87,17,0,132,133,17,0,132,205,17,0,132,233,17,0,133,9,17,0,133,51,17,0,133,103,17
-	.byte 0,133,129,17,0,133,165,40,33,40,40,40,40,40,3,193,0,0,10,3,194,0,5,98,3,193,0,0,14,3,193,0
+	.byte 0,133,129,17,0,133,165,40,33,40,40,40,40,40,3,193,0,0,10,3,194,0,5,92,3,193,0,0,14,3,193,0
 	.byte 0,78,3,193,0,0,15,3,193,0,0,13,3,193,0,0,79,3,193,0,0,82,3,193,0,0,83,3,193,0,0,11
-	.byte 7,20,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,102,97,115,116,0,3,193,0,1,140,7,25,109,111
-	.byte 110,111,95,97,114,99,104,95,116,104,114,111,119,95,101,120,99,101,112,116,105,111,110,0,3,193,0,0,148,3,193,0
+	.byte 7,20,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,102,97,115,116,0,3,193,0,1,143,7,25,109,111
+	.byte 110,111,95,97,114,99,104,95,116,104,114,111,119,95,101,120,99,101,112,116,105,111,110,0,3,193,0,0,149,3,193,0
 	.byte 0,22,7,32,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112
 	.byte 116,105,111,110,0,7,17,109,111,110,111,95,104,101,108,112,101,114,95,108,100,115,116,114,0,3,193,0,0,80,3,193
-	.byte 0,0,81,3,193,0,0,107,3,193,0,0,108,3,193,0,1,114,3,193,0,0,72,3,193,0,0,86,3,193,0,0
+	.byte 0,0,81,3,193,0,0,108,3,193,0,0,109,3,193,0,1,117,3,193,0,0,72,3,193,0,0,86,3,193,0,0
 	.byte 87,3,193,0,0,88,3,193,0,0,66,3,193,0,0,69,3,193,0,0,91,3,193,0,0,92,3,193,0,0,101,3
 	.byte 193,0,0,102,3,2,3,3,3,193,0,0,95,3,193,0,0,96,3,193,0,0,84,3,193,0,0,85,3,193,0,0
-	.byte 103,3,193,0,0,104,3,4,3,5,3,6,3,7,3,193,0,0,32,3,194,0,1,208,3,193,0,0,211,3,193,0
+	.byte 103,3,193,0,0,104,3,4,3,5,3,6,3,7,3,193,0,0,32,3,194,0,1,206,3,193,0,0,212,3,193,0
 	.byte 0,44,31,2,7,35,109,111,110,111,95,116,104,114,101,97,100,95,105,110,116,101,114,114,117,112,116,105,111,110,95,99
 	.byte 104,101,99,107,112,111,105,110,116,0,31,3,31,4,31,5,31,6,31,7,10,0,4,255,255,255,255,255,52,0,1,24
 	.byte 1,2,6,20,0,192,255,255,249,16,0,18,128,128,68,128,140,208,0,0,13,8,0,3,0,68,6,28,1,32,10,19
@@ -5099,10 +5099,10 @@ blob:
 	.byte 6,28,1,7,1,32,0,192,255,255,217,20,0,78,129,148,128,172,129,180,208,0,0,13,20,208,0,0,13,24,208,0
 	.byte 0,13,28,208,0,0,13,8,208,0,0,13,12,208,0,0,13,16,208,0,0,13,18,0,17,0,128,172,0,28,2,4
 	.byte 9,28,0,4,5,8,1,4,0,16,6,16,1,4,0,4,5,4,2,16,0,16,6,4,1,32,1,44,0,128,144,8
-	.byte 0,0,1,4,128,196,8,8,4,0,1,194,0,2,170,194,0,2,167,194,0,2,166,194,0,2,164,14,128,130,193,0
-	.byte 0,26,24,0,0,4,193,0,0,30,194,0,2,167,193,0,0,26,194,0,2,164,193,0,0,14,193,0,0,27,193,0
+	.byte 0,0,1,4,128,196,8,8,4,0,1,194,0,2,168,194,0,2,165,194,0,2,164,194,0,2,162,14,128,130,193,0
+	.byte 0,26,24,0,0,4,193,0,0,30,194,0,2,165,193,0,0,26,194,0,2,162,193,0,0,14,193,0,0,27,193,0
 	.byte 0,32,193,0,0,28,193,0,0,17,193,0,0,16,16,15,14,13,48,128,230,61,193,0,0,26,44,128,148,0,4,193
-	.byte 0,0,30,194,0,2,167,193,0,0,26,194,0,2,164,193,0,0,14,193,0,0,27,60,193,0,0,28,193,0,0,17
+	.byte 0,0,30,194,0,2,165,193,0,0,26,194,0,2,162,193,0,0,14,193,0,0,27,60,193,0,0,28,193,0,0,17
 	.byte 17,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45,44,43,42,41,40,39,38,37,36,35,34,33,32,31,30,29
 	.byte 28,27,26,25,24,23,22,98,111,101,104,109,0
 .section __TEXT, __const
@@ -5687,7 +5687,7 @@ LDIFF_SYM82=LTDIE_10 - Ldebug_info_start
 	.long LDIFF_SYM82
 	.byte 2
 	.asciz "BLE.BLEDelegate:BleDidReceiveData"
-	.long _BLE_BLEDelegate_BleDidReceiveData_string_int
+	.long _BLE_BLEDelegate_BleDidReceiveData_intptr_int
 	.long Lme_f
 
 	.byte 2,118,16,3
@@ -5698,7 +5698,7 @@ LDIFF_SYM83=LTDIE_2_REFERENCE - Ldebug_info_start
 	.byte 2,125,8,3
 	.asciz "data"
 
-LDIFF_SYM84=LDIE_STRING - Ldebug_info_start
+LDIFF_SYM84=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM84
 	.byte 2,125,12,3
 	.asciz "length"
@@ -5715,9 +5715,9 @@ Lfde9_start:
 
 	.long 0
 	.align 2
-	.long _BLE_BLEDelegate_BleDidReceiveData_string_int
+	.long _BLE_BLEDelegate_BleDidReceiveData_intptr_int
 
-LDIFF_SYM87=Lme_f - _BLE_BLEDelegate_BleDidReceiveData_string_int
+LDIFF_SYM87=Lme_f - _BLE_BLEDelegate_BleDidReceiveData_intptr_int
 	.long LDIFF_SYM87
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,48
 	.align 2
