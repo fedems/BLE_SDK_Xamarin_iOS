@@ -1,5 +1,6 @@
 using System;
 using System.Drawing;
+using System.Runtime.InteropServices;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using BLE;
@@ -8,9 +9,11 @@ namespace BLETest
 {
 	public partial class BLETestViewController : UIViewController
 	{
-		private BLE.BLE _ble;  
+		private BLE.BLE _ble = new BLE.BLE();  
 		private BLEHandleDelegate _delegado;
 		private MonoTouch.CoreBluetooth.CBPeripheral _disp;
+		private NSData dat2;
+		private byte[] buf2;
 
 		public BLETestViewController () : base ("BLETestViewController", null)
 		{
@@ -35,7 +38,6 @@ namespace BLETest
 			swStatus.Enabled = false;
 
 			// BLE inititialization
-			_ble = new BLE.BLE();
 			_ble.ControlSetup (1);
 			//_delegado = new BLEHandleDelegate (this); 				- with Strong delegate
 			//_ble.Delegate = _delegado;								- with Strong delegate
@@ -46,6 +48,11 @@ namespace BLETest
 				NSTimer timer = NSTimer.CreateScheduledTimer((float) 2.0,() => AfterTimer());
 			};
 
+			lblBoton2.TouchDown += delegate {
+				sendAnalogIn();
+			};
+		
+			Console.WriteLine ("Termina ViewDidLoad");
 			// Perform any additional setup after loading the view, typically from a nib.
 		}
 
@@ -74,12 +81,53 @@ namespace BLETest
 					_ble.ConnectPeripheral(_disp);
 				}
 			}
+			Console.WriteLine ("Termina timer");
 		}
 
 		public override bool ShouldAutorotateToInterfaceOrientation (UIInterfaceOrientation toInterfaceOrientation)
 		{
 			// Return true for supported orientations
 			return (toInterfaceOrientation != UIInterfaceOrientation.PortraitUpsideDown);
+		}
+
+		// Send and retrieve data methods
+
+		/* Send command to Arduino to enable analog reading */
+		void sendAnalogIn()
+		{
+			buf2 = new byte[] {0xA0, 0x00, 0x00};
+		
+			buf2[1] = 0x01; // Analog Input Pin - On (Pin A5)
+			dat2 = NSData.FromArray(buf2);
+			_ble.Write(dat2);
+		}
+
+		/* Send command to Arduino to enable digital writing */
+		void sendDigitalIn()
+		{
+			byte[] buf= {0x01, 0x00, 0x00};
+
+			buf[1] = 0x00; // Digital Output Pin - Ox01 (Pin 4) or Digital Input Pin - 0x00 (Pin 5)
+			NSData data = NSData.FromArray(buf);
+			_ble.Write(data);
+		}
+
+		// PWM slide will call this to send its value to Arduino
+		void sendPWM()
+		{
+			byte[] buf= {0x02, 0x00, 0x00};
+
+			NSData data = NSData.FromArray(buf);
+			_ble.Write(data);
+		}
+
+		// Servo slider will call this to send its value to Arduino
+		void sendServo()
+		{
+			byte[] buf= {0x03, 0x00, 0x00};
+
+			NSData data = NSData.FromArray(buf);
+			_ble.Write(data);
 		}
 
 		// Weak delegate - methods
@@ -89,6 +137,9 @@ namespace BLETest
 		{
 			btnConectar.SetTitle("Desconectar",UIControlState.Normal);
 			lblStatus.Text = "Conectado a: \n\t\t\t\t\t" + _disp.Name + " :ID: " + _disp.UUID.ToString();
+			Console.WriteLine("Framework Version: " + _ble.ReadFrameworkVersion.ToString());
+			Console.WriteLine("Lib Version: " + _ble.ReadLibVer.ToString());
+			Console.WriteLine("Vendor name: " + _ble.ReadVendorName.ToString());
 		}
 
 		[Export("bleDidDisconnect")]
@@ -106,26 +157,26 @@ namespace BLETest
 		}
 
 		[Export("bleDidReceiveData:length:")]
-		public void BleDidReceiveData(string data, int length)
+		public void BleDidReceiveData(IntPtr data, int length)
 		{
-			Console.WriteLine ("Length :  %d", length);
+			byte[] datos = new byte[3];
+			Marshal.Copy(data, datos, 0, 3);
 
 			// parse data, all commands are in 3-byte
-			for (int i=0; i<length; i+=3) {
-				Console.WriteLine ("0x%02X, 0x%02X, 0x%02X", data [i], data [i + 1], data [i + 2]);
-
-				if (data [i] == 0x0A) 
+			for (int i=0; i<length; i+=3) 
+			{
+				if (datos [i] == 0x0A) 
 				{
-					if (data [i + 1] == 0x01)
+					if (datos [i + 1] == 0x01)
 						swStatus.SelectedSegment = 0;
 					else
 						swStatus.SelectedSegment = 1;
 				} 
-				else if (data [i] == 0x0B) 
+				else if (datos [i] == 0x0B) 
 				{
 					int Value;
 
-					Value = data [i + 2] | data [i + 1] << 8;
+					Value = datos [i + 2] | datos [i + 1] << 8;
 					lblAnalogIn.Text = "Analog Input:  \t" + Value.ToString();
 				}
 			}
