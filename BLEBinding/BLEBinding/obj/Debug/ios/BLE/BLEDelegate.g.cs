@@ -96,7 +96,7 @@ namespace BLE {
 		
 		[Export ("bleDidReceiveData:length:")]
 		[CompilerGenerated]
-		public virtual void BleDidReceiveData (string data, int length)
+		public virtual void BleDidReceiveData (global::System.IntPtr data, int length)
 		{
 			throw new You_Should_Not_Call_base_In_This_Method ();
 		}

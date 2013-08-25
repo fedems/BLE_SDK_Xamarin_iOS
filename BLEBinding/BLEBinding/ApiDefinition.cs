@@ -19,7 +19,7 @@ namespace BLE {
 		void BleDidUpdateRSSI (NSNumber rssi);
 
 		[Export ("bleDidReceiveData:length:")]
-		void BleDidReceiveData (string data, int length);
+		void BleDidReceiveData (IntPtr data, int length);
 	}
 
 	[BaseType (typeof (NSObject))]
